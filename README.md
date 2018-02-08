@@ -1,0 +1,1 @@
+# Akcje_Redux
