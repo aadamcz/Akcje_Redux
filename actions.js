@@ -50,7 +50,7 @@ function thumbDownComment(id) {//id - którego komentarza dotyczy dec
 
 //Jednoczesne tworzenie i wysyłanie akcji
 store.dispatch(addComment({text}));
-store.dispatch(editComment({text}));
+store.dispatch(editComment({id,text}));
 store.dispatch(removeComment({id}));
 store.dispatch(thumbUpComment({id}));
 store.dispatch(thumbDownComment({id}));
