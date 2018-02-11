@@ -1,4 +1,4 @@
-import uuid from uuid;
+import uuid from 'uuid';
 
 //Zdefiniować typy akcji oraz kreatory akcji dla zdarzeń:
 //Tworzenie komentarza
